@@ -18,7 +18,7 @@ const App = () => {
     image: ""
   });
 
-const handleSubmit = e => {
+const handleSubmit = (e) => {
     e.preventDefault()
     if (task.text || task.image) {
       tasks.push({
